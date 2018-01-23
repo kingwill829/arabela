@@ -1,0 +1,17 @@
+$baseline:16px;
+
+/* Colours */
+$purple:#412f3d;
+$black: #1C1D1F;
+
+/* Fonts */
+$heading:'Lato', sans-serif;
+$intext: 'Source Sans Pro', sans-serif;
+
+/* Flex */
+.flex-vert {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+

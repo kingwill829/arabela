@@ -1,0 +1,16 @@
+.table {
+	margin-bottom:$baseline;
+	width:100%;
+}
+th {
+	font-family:$heading;
+	background-color:$purple;
+	color:white;
+}
+.table, .table th, .table td {
+   border: 1px solid #d5d6d8;
+}
+.table th, .table td {
+    padding: 8px;
+    text-align: left;
+}

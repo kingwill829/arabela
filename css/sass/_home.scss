@@ -1,0 +1,53 @@
+.home-band {
+	padding:$baseline;
+	background-color:$black;
+	color:white;
+}
+.home-banner__inner {
+    margin-top: 16px;
+}
+.home-text p {
+    width:90%;
+    margin:0 auto;
+    margin-bottom: $baseline;
+}
+.treatment-container {
+    position:relative;
+}
+.treatment-holder {
+	position:absolute;
+	text-align: center;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(28, 29, 31, 0.4);
+    color:white;
+    font-family: $heading;
+    font-size: 20px;
+    span {
+    	max-width: 80%;
+   		display: inline-block;
+    }
+}
+.treatment-holder:hover {
+    background: rgba(28, 29, 31, 0);
+    cursor:pointer;
+}
+
+@media screen and (min-width:769px) {
+    .home-banner__inner {
+        position: absolute;
+        left: 0;
+        bottom: 48px;
+        text-align: left;
+    }
+    .home-text p {
+        width:50%;
+        text-align: justify;
+    }
+}

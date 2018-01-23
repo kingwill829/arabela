@@ -1,0 +1,2 @@
+sass --watch /Users/willking/localhost/arabella-hair-and-beauty/css/sass:/Users/willking/localhost/arabella-hair-and-beauty/css/ --style compressed
+

@@ -1,0 +1,26 @@
+#mobileNav:hover {
+	cursor:pointer;
+}
+nav {
+	display:none;
+	position:absolute;
+	left:0;
+	top:80px;
+	background: rgba(255, 255, 255, 0.9);
+	width:100%;
+	min-height:1000px;
+	z-index: 999;
+	text-align:center;
+	color:white;
+	font-size:3em;
+	ul {
+		margin-top:56px;
+		li {
+			margin-bottom:$baseline * 2;
+			a {
+				font-family: $heading;
+				color:black;
+			}
+		}
+	}
+}
